@@ -2,8 +2,7 @@ import { createRemoteJWKSet } from 'jose/jwks/remote';
 import { jwtVerify } from 'jose/jwt/verify';
 const JWKS = createRemoteJWKSet(
   new URL(
-    process.env.AAD_JWKS ||
-    'https://login.microsoftonline.com/common/discovery/keys'
+    process.env.AAD_JWKS || 'https://login.microsoftonline.com/common/discovery/keys'
   )
 );
 export const authCheckerFunction = async (token: string) => {
@@ -24,7 +23,7 @@ export const authCheckerFunction = async (token: string) => {
       }
     } catch (error) {
       console.log(error);
-      return false;
+      throw new Error('Token Validation Error: '+error.message);
     }
   }
   return false;
