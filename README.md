@@ -15,7 +15,9 @@ This repo contains the starter setup that I always spend way too much time setti
 Using [Github Actions](https://github.com/madmaxlax/react-materialui-router-typescript-starter/blob/main/.github/workflows/deploy-to-gh-pages.yml) we deploy to the free static hosting Github Pages
 https://madmaxlax.github.io/react-materialui-router-typescript-starter/ 
 
-
+route to test: 
+localhost:8000/foo
+send a token as a bearer auth header
 
 ## How to use
 
