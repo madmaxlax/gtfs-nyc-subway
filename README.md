@@ -1,4 +1,4 @@
-# Create React App Starter with Router, Material UI, 
+# Fastify starter with Auth
 
 
 ## About:
