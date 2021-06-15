@@ -8,7 +8,6 @@ const JWKS = createRemoteJWKSet(
 );
 export const authCheckerFunction = async (token: string) => {
 
-  console.log(token)
   if (token) {
     try {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
