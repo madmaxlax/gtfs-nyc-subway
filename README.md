@@ -21,6 +21,10 @@ https://madmaxlax.github.io/react-materialui-router-typescript-starter/
 
 Download the example [or clone the repo](https://github.com/madmaxlax/ts-fastify-with-auth-starter):
 
+**Set up the JWKS URL environment variable**
+you can use a .env file
+
+`AAD_JWKS`
 
 Install it and run:
 
