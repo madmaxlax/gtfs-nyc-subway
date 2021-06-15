@@ -1,8 +1,6 @@
 import { fastify as Fastify } from 'fastify';
-// import fjwt, { TokenOrHeader } from 'fastify-jwt';
 import bearerAuthPlugin from 'fastify-bearer-auth';
 import { authCheckerFunction } from './auth';
-// import { createRemoteJWKSet } from 'jose/jwks/remote';
 const PORT = process.env.PORT ? parseInt(process.env.PORT) : 8000;
 const keys = new Set(['key will be ignored because we are using JWKS urls'])
 
