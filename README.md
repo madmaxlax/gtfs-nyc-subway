@@ -9,7 +9,8 @@ https://madmaxlax.github.io/react-materialui-router-typescript-starter/
 
 # Route to test: 
 
-localhost:8000/foo
+`localhost:8000/foo`
+
 send a token as a bearer auth header
 
 ## About:
